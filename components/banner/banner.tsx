@@ -8,7 +8,7 @@ const Banner = () => {
   const settings = {
     dots: true,
     infinite: true,
-    // autoplay: true,
+    autoplay: true,
     autoplaySpeed: 2000,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -19,12 +19,18 @@ const Banner = () => {
   const textSlides = [
     {
       heading: "Delicious Meals on Campus",
-      description: "Order your favorites online",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, ea, fuga at suscipit excepturi doloribus dolor impedit eligendi expedita distinctio pariatur libero repudiandae nisi, alias sed? Excepturi, itaque ab? Officia ipsum unde nesciunt.",
     },
-    { heading: "Fuel Your Day", description: "Fresh, healthy, and convenient" },
+    {
+      heading: "Fuel Your Day",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, ea, fuga at suscipit excepturi doloribus dolor impedit eligendi expedita distinctio pariatur libero repudiandae nisi, alias sed? Excepturi, itaque ab? Officia ipsum unde nesciunt.",
+    },
     {
       heading: "Discover Daily Specials",
-      description: "Find exciting offers every day",
+      description:
+        "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum, ea, fuga at suscipit excepturi doloribus dolor impedit eligendi expedita distinctio pariatur libero repudiandae nisi, alias sed? Excepturi, itaque ab? Officia ipsum unde nesciunt.",
     },
   ];
 

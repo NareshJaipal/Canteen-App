@@ -14,23 +14,52 @@
   width: 90%;
   margin: 0 auto;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 5%;
 }
 
 .slide {
-  /* padding: 20px; */
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .heading {
-  font-size: 3rem;
+  font-size: 50px;
+  font-weight: 700;
   margin-bottom: 10px;
+  color: #fff;
+}
+
+.description {
+  padding: 10px;
+  max-width: 550px;
+  width: 98%;
   color: #fff;
 }
 
 @media (max-width: 700px) {
   .carasoul {
-    /* width: 50%; */
+    top: 12%;
+  }
+
+  .slide {
+    padding-bottom: 70px;
+  }
+
+  .heading {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 500px) {
+  .carasoul {
+    top: 10%;
+  }
+
+  .slide {
+    padding-bottom: 50px;
+  }
+
+  .heading {
+    font-size: 40px;
   }
 }
