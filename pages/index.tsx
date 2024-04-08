@@ -1,10 +1,10 @@
 import Head from "next/head";
-
 import NavBar from "../components/navbar/navbar";
 import styles from "../styles/Home.module.css";
 import Banner from "../components/banner/banner";
 import Dummy from "../components/dummy/dummy";
 import Menu from "../components/menu/menu";
+import About from "../components/about/about";
 
 export default function Home() {
   return (
@@ -21,10 +21,13 @@ export default function Home() {
           <Banner />
         </div>
 
-        <Dummy />
         <div className={styles.menuWrapper} id="menu">
           <Menu />
         </div>
+        <div className={styles.aboutWrapper}>
+          <About />
+        </div>
+        {/* <Dummy /> */}
         <Dummy />
       </main>
     </>

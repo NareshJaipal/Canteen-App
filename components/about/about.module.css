@@ -1,0 +1,32 @@
+.container {
+  padding: 80px 30px;
+  background: linear-gradient(to bottom, #111214, #3c4041);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imageWrapper {
+  width: 45%;
+  height: 500px;
+}
+
+.aboutImage {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textWrapper {
+  width: 45%;
+  height: 100%;
+}
+
+.aboutHeading {
+  text-align: center;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: 800;
+}

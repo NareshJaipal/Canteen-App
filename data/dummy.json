@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Chicken Burger",
+    "category": "Burgers",
+    "price": 6.99,
+    "imageUrl": "/images/chicken-burger.jpg"
+  },
+  {
+    "name": "Veggie Wrap",
+    "category": "Vegetarian",
+    "price": 5.49,
+    "imageUrl": "/images/veggie-wrap.jpg"
+  },
+  {
+    "name": "Pasta Salad",
+    "category": "Salads",
+    "price": 4.99,
+    "imageUrl": "/images/pasta-salad.jpg"
+  },
+  {
+    "name": "Blueberry Muffin",
+    "category": "Breakfast",
+    "price": 2.49,
+    "imageUrl": "/images/blueberry-muffin.jpg"
+  }
+]
